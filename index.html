@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="images/png" rel="icon" href="./images/Youtube icon.png">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <title>YouCube</title>
+    <script src="https://kit.fontawesome.com/0d198622c3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header Starts from here -->
+    <header class="header">
+        <div class="header_container">
+            <div class="none"> </div>
+
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="user">
+                <div class="icon">
+                    <i class="fa-solid fa-video"></i>
+                    <i class="fa-solid fa-grip"></i>
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+
+                <div class="toggle">
+                    <i class="fa-solid fa-bars" id="header-toggle"></i>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </header>
+    <!-- header ends here -->
+
+
+    <!-- Nav Starts From here -->
+    <section class="nav" id="navbar">
+        <nav class="nav_container">
+            <div>
+                <a href="#" class="nav_link nav_logo">
+                    <button style=" border: none; background-color: #1c1c1c; color: aliceblue;" onclick="myfunction()"> <i class="fa-solid fa-bars nav_icon"></i> </button>
+                    <span class="logo_name">
+                        <i class="fab fa-youtube"></i>
+                        YouCube
+                    </span>
+                </a>
+                <div class="nav_list">
+                    <div class="nav_items navtop">
+                        <a href="#" class="nav_link navtop active">
+                            <i id="sidebar" class="fa fa-house nav_icon"></i> 
+                            <span class="nav_name">Home</span>
+                        </a>
+                        <a href="#" class="nav_link navtop">
+                            <i class="fa fa-compass nav_icon"></i>
+                            <span class="nav_name">Explore</span>
+                        </a>
+                        <a href="#" class="nav_link navtop">
+                            <i class="fa-brands fa-tiktok nav_icon"></i>
+                            <span class="nav_name">Shorts Video</span>
+                        </a>
+                        <a href="#" class="nav_link navtop">
+                            <i class="fa fa-house nav_icon"></i>
+                            <span class="nav_name">Home</span>
+                        </a>
+                        <a href="#" class="nav_link navtop">
+                            <i class="fa-solid fa-users nav_icon"></i>
+                            <span class="nav_name">Channel</span>
+                        </a>
+                        <a href="#" class="nav_link navtop">
+                            <i class="fa-solid fa-video nav_icon"></i>
+                            <span class="nav_name">Library</span>
+                        </a>
+                        <a href="#" class="nav_link navtop">
+                            <i class="fa-solid fa-clock-rotate-left nav_icon"></i>
+                            <span class="nav_name">History</span>
+                        </a>
+                        <a href="#" class="nav_link navtop">
+                            <i class="fa-solid fa-thumbs-up nav_icon"></i>
+                            <span class="nav_name">Like</span>
+                        </a>
+                        <div class="nav_dropdown">
+                            <a href="#" class="nav_link">
+                                <i class="fa-solid fa-chevron-down nav_icon"></i>
+                                <span class="nav_name">Show More</span>
+                            </a>
+
+                            <div class="nav_dropdown-collapse">
+                                <div class="nav_dropdown-content">
+                                    <a href="#" class="nav_dropdown-item">Grid Box</a>
+                                    <a href="#" class="nav_dropdown-item">Frontend Design</a>
+                                    <a href="#" class="nav_dropdown-item">Backend Design</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="nav_link">
+                            <i class="fa-solid fa-comment nav_icon"></i>
+                            <span class="nav_name">Message</span>
+                        </a>
+                    </div>
+                    <div class="nav_items subscribe-container">
+                        <h3 class="nav_subtitle">SUBSCRIPTIONS</h3>
+
+
+                        <a href="#" class="nav_link">
+                            <img class="subscribe" src="./images/c1.png" alt="">
+                            <span class="nav_name">Jhon Pork</span>
+                        </a>
+
+                        <a href="#" class="nav_link">
+                            <img class="subscribe" src="./images/team01.png" alt="">
+                            <span class="nav_name">Xeoren</span>
+                        </a>
+
+                        <a href="#" class="nav_link">
+                            <img class="subscribe" src="./images/c2.jpg" alt="">
+                            <span class="nav_name">AI Master</span>
+                        </a>
+                        <a href="#" class="nav_link">
+                            <img class="subscribe" src="./images/c3.png" alt="">
+                            <span class="nav_name">Luis Cravlin</span>
+                        </a>
+
+                        <div class="nav_dropdown">
+                            <a href="#" class="nav_link">
+                                <i class="fa-solid fa-circle-cheak nav_icon"></i>
+                                <span class="nav_name">Show 3 More</span>
+                            </a>
+                            <div class="nav_dropdown-collapse nav_dropdown-second">
+                                <div class="nav_dropdown-content">
+                                    <a href="#" class="nav_dropdown-items">
+                                        <img class="subscribe" src="./images/c4.png" alt="">
+                                        <span class="nav_name">CNN</span>
+                                    </a>
+                                    <a href="#" class="nav_dropdown-items">
+                                        <img class="subscribe" src="./images/c5.png" alt="">
+                                        <span class="nav_name">Disney</span>
+                                    </a>
+                                    <a href="#" class="nav_dropdown-items">
+                                        <img class="subscribe" src="./images/c6.png" alt="">
+                                        <span class="nav_name">MTV</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Nav Ends here -->
+
+    <main>
+        <section class="video_content grid">
+            <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/Thumb1.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to create some good thumbnail for the Youtube Video</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/thumb2.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to make Hotel Booking Website With HTML CSS ......</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/Thumb1.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to create some good thumbnail for the Youtube Video</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/thumb2.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to make Hotel Booking Website With HTML CSS ......</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/Thumb1.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to create some good thumbnail for the Youtube Video</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/thumb2.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to make Hotel Booking Website With HTML CSS ......</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/Thumb1.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to create some good thumbnail for the Youtube Video</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/thumb2.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to make Hotel Booking Website With HTML CSS ......</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/Thumb1.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to create some good thumbnail for the Youtube Video</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/thumb2.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to make Hotel Booking Website With HTML CSS ......</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/Thumb1.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to create some good thumbnail for the Youtube Video</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/thumb2.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to make Hotel Booking Website With HTML CSS ......</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/Thumb1.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to create some good thumbnail for the Youtube Video</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/thumb2.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to make Hotel Booking Website With HTML CSS ......</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/Thumb1.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to create some good thumbnail for the Youtube Video</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        <div class="video_items">
+            <a href="single-page.html">
+                <img src="images/thumb2.jpg" alt="">
+            </a>
+            <div class="details flex">
+                <div class="img">
+                    <img src="./images/team01.png" alt="">
+                </div>
+                <div class="heading">
+                    <p>How to make Hotel Booking Website With HTML CSS ......</p>
+                    <span>Xeoren <i class="fa fa-circle-check"></i> </span>
+                    <span>56.7M .1 Week ago</span>
+                  </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+
+    <script src="main.js" charset="UTF-8"></script>
+
+</body>
+
+</html>
